@@ -640,9 +640,12 @@ h2{
 }
 
 .footer-container{
+    position: relative;
+}
+
+.footer-content{
     height: 639px;
     background-color: #2B4074;
-    position: relative;
 }
 
 .footer-logo{
@@ -959,9 +962,9 @@ h2{
         height: 632px;
     }
 
-    .footer-logo{
+    /* .footer-logo{
         margin-left: 398px;
-    }
+    } */
 
     .footer-container p{
         font-size: 36px;
@@ -1174,9 +1177,9 @@ h2{
         height: 632px;
     }
 
-    .footer-logo{
+    /* .footer-logo{
         margin-left: 275px;
-    }
+    } */
 
     .footer-container p{
         font-size: 36px;
@@ -1467,9 +1470,9 @@ h2{
         height: 600px;
     }
 
-    .footer-logo{
+    /* .footer-logo{
         margin-left: 205px;
-    }
+    } */
 
     .footer-container p{
         font-size: 24px;
@@ -1772,9 +1775,9 @@ h2{
         height: 954px;
     }
 
-    .footer-logo{
+    /* .footer-logo{
         margin-left: 41px;
-    }
+    } */
 
     .footer-container p{
         width: 274px;
