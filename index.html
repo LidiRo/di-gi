@@ -23,7 +23,7 @@
 <body>
 
   <div class="wrapper">
-    <header>
+    <header id="start">
       <div class="header-container">
         <img src="images/logo.svg" alt="Logo" class="logo">
         <img src="images/menu-button.svg" alt="Menu-button" class="menu-button">
@@ -155,7 +155,7 @@
         </div>
       </section>
 
-      <section class="resent-work">
+      <section id="our-projects" class="resent-work">
         <div class="resent-work-container">
           <div class="resent-work-title">
             <h2>Наші Проєкти</h2>
@@ -218,7 +218,7 @@
         <!-- <div class="bg-resent-work"></div> -->
       </section>
 
-      <section class="video-block">
+      <section id="team" class="video-block">
         <div class="video-block-container">
           <div class="video">
             <img src="images/video.jpg" alt="Video">
@@ -240,7 +240,7 @@
         </div>
       </section>
 
-      <section class="latest-news">
+      <section id="blog" class="latest-news">
         <div class="latest-news-container">
           <div class="latest-news-title">
             <h2>Останні новини</h2>
@@ -426,15 +426,19 @@
           </div>
           <div class="widget">
             <p class="menu">Меню</p>
-            <a href="#">Наші проекти</a>
-            <a href="#">Команда</a>
-            <a href="#">Блог</a>
+            <a href="#our-projects">Наші проекти</a>
+            <a href="#team">Команда</a>
+            <a href="#blog">Блог</a>
           </div>
         </div>
       </div>
         <div class="previous-message">
-          <p>Вгору</p>
-          <img src="images/previous-message.svg" alt="Previous">
+          <div class="previous-content">
+            <a href="#start">Вгору</a>
+            <a href="#start"><img src="images/previous-message.svg" alt="Previous"></a>
+            <!-- <p>Вгору</p>
+            <img src="images/previous-message.svg" alt="Previous"> -->
+          </div>
         </div>
     </footer>
   </div>
